@@ -65,27 +65,31 @@ h2{
     height: 400px;
     margin-top: 0px;
 } 
+
 .imgGaleria{
     width: 100%;
     height: 300px;
     padding: 20px;
 }
-
+.imgGaleria:hover{
+    padding: 1px;
+    border-radius: 5%;
+}
 .parrafo1{
     padding: 1rem;
     line-height: 1,5;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    width: 100%;
+    margin-left: 20px;
+    font-weight: 590;
 }
-.img1{
-    width: 430px;
+.imgInicio{
+    width: 100%;
     height: 300px;
-    margin-left: 15px;
-    padding: 4px;
-}
-.img2{
-    width: 430px;
-    height: 300px;
-    padding: 4px;
+    padding: 20px;
+    padding-bottom: 30px;
 }
 
 
@@ -127,7 +131,6 @@ iframe{
 }
 footer{
     background-color: rgb(15, 180, 180);
-    
 }
 .footerMenu{
     display: flex;
@@ -187,6 +190,32 @@ footer{
     }
 }
 .imgCarousel{
-    width: 800px;
-    height: 500px;
+    width: 100%;
+    height: 450px;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgCarta{
+    height: 300px;
+}
+.textoCarta{
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    
+}
+.card{
+    margin-left: 120px;
+    margin-bottom: 40px;
+    width: 500px;
+}
+.colorCarta{
+    background-color: rgb(90, 218, 250);
+    border-color: rgb(183, 231, 225);
 }
