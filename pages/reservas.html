@@ -11,53 +11,72 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&display=swap" rel="stylesheet">
-    <title>Reservas</title>
+    <title>Dagui Alojamiento | Reservas</title>
 </head>
 
 <body>
     <header>
-        <nav class="headerNav">
-            <div> <a href="../index.html"> <img class="headerLogo" src="../img/android-chrome-192x192.png"
-                        alt="Logo Dagui"></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a href="../index.html"> <img class="headerLogo" src="../img/android-chrome-192x192.png"
+                    alt="Logo Dagui"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./promociones.html">Promociones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="./ubicacion.html">Ubicación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="./reservas.html">Reservas</a>
+                    </li>
+                </ul>
             </div>
-            <ul class="headerMenu">
-                <li class="headerItem"> <a class="headerLink" href="../index.html">Inicio</a> </li>
-                <li class="headerItem"> <a class="headerLink" href="./galeria.html">Galeria</a> </li>
-                <li class="headerItem"> <a class="headerLink" href="./promociones.html">Promociones</a> </li>
-                <li class="headerItem"> <a class="headerLink" href="./ubicacion.html">Ubicacion</a> </li>
-                <li class="headerItem"> <a class="headerLink" href="./reservas.html">Reservas</a> </li>
-            </ul>
         </nav>
     </header>
 
-    <h1 class="text-center pt-3">
-        Reservas
-    </h1>
-
     <main>
-        <form class="formulario border border-3 border-info p-3">
-            <div class="mb-3">
-                <label for="name" class="form-label">Nombre y Apellido</label>
-                <input type="text" class="form-control" name="name">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-                <label for="name" class="form-label">Teléfono</label>
-                <input type="text" class="form-control" name="tel">
-            </div>
-            <div class="mb-3">
-                <label for="Fecha Ingreso">Fecha Ingreso</label>
-                <input type="date" name="fecha">
-                <label for="Fecha Egreso">Fecha Egreso</label>
-                <input type="date" name="fecha">
-            </div>
-            <div class="botonEnviar">
-                <button type="submit" class="btn colorBoton">Enviar</button>
-            </div>
-        </form>
+        <section>
+            <h1 class="text-center pt-3">
+                Reservas
+            </h1>
+        </section>
+
+        <section>
+            <form class="formulario border border-3 border-info p-3">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre y Apellido</label>
+                    <input type="text" class="form-control" name="name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Teléfono</label>
+                    <input type="text" class="form-control" name="tel">
+                </div>
+                <div class="mb-3">
+                    <label for="Fecha Ingreso">Fecha Ingreso</label>
+                    <input type="date" name="fecha">
+                    <label for="Fecha Egreso">Fecha Egreso</label>
+                    <input type="date" name="fecha">
+                </div>
+                <div class="botonEnviar">
+                    <button type="submit" class="btn colorBoton">Enviar</button>
+                </div>
+            </form>
+        </section>
     </main>
 
     <footer>
@@ -73,7 +92,7 @@
             </div>
         </nav>
     </footer>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
