@@ -1,0 +1,30 @@
+main {
+    section {
+        div {
+            section {
+                div {
+                    .formulario {
+                        margin: 20px auto;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        width: 550px;
+                    }
+
+                    .botonEnviar {
+                        margin-left: 200px;
+                        padding: 10px;
+
+                    }
+
+                    .colorBoton {
+                        background-color: rgb(54, 182, 150);
+
+                        &:hover {
+                            background-color: rgb(8, 133, 138);
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

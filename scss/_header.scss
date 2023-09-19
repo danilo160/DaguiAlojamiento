@@ -1,10 +1,19 @@
 header {
     nav {
+        .headerLogo {
+            width: 110px;
+            padding: 5px;
+            margin-top: 5px;
+            margin-right: 50px;
+            margin-left: 10px;
+        }
+
         div {
             .nav-item {
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 font-weight: 700;
                 font-size: 1.2rem;
+
                 :hover {
                     background-color: rgb(3, 54, 75);
                     color: rgb(252, 251, 250);
