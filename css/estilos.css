@@ -44,14 +44,29 @@ footer nav div .imgFooter1 {
   margin-top: 15px;
   width: 85px;
 }
+@media (max-width: 780px) {
+  footer nav div .imgFooter1 {
+    width: 65px;
+  }
+}
 footer nav div .imgFooter2 {
   width: 100px;
   margin-top: 10px;
+}
+@media (max-width: 780px) {
+  footer nav div .imgFooter2 {
+    width: 80px;
+  }
 }
 footer nav div .imgFooter3 {
   margin-right: 40px;
   margin-top: 25px;
   width: 70px;
+}
+@media (max-width: 780px) {
+  footer nav div .imgFooter3 {
+    width: 55px;
+  }
 }
 
 main section div section div .imgGaleria {
@@ -128,6 +143,11 @@ main section div section div .formulario {
   margin: 20px auto;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   width: 550px;
+}
+@media (max-width: 780px) {
+  main section div section div .formulario {
+    width: 300px;
+  }
 }
 main section div section div .botonEnviar {
   margin-left: 200px;

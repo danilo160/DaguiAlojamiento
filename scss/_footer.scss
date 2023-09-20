@@ -17,17 +17,29 @@ footer {
                 margin-left: 40px;
                 margin-top: 15px;
                 width: 85px;
+
+                @media (max-width:780px) {
+                    width: 65px;
+                }
             }
 
             .imgFooter2 {
                 width: 100px;
                 margin-top: 10px;
+
+                @media (max-width:780px) {
+                    width: 80px;
+                }
             }
 
             .imgFooter3 {
                 margin-right: 40px;
                 margin-top: 25px;
                 width: 70px;
+
+                @media (max-width:780px) {
+                    width: 55px;
+                }
             }
         }
     }

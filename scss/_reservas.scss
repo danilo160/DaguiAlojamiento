@@ -7,6 +7,9 @@ main {
                         margin: 20px auto;
                         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                         width: 550px;
+                        @media (max-width:780px){
+                            width: 300px;                            
+                        }
                     }
 
                     .botonEnviar {
