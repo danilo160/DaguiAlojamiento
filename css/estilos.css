@@ -10,22 +10,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-  font-size: 2.7rem;
-  text-align: center;
-  padding: 1rem;
-  font-family: "Josefin Sans", sans-serif;
-}
-
-h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  padding: 1rem;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  font-family: "Montserrat", sans-serif;
-}
-
 header nav .headerLogo {
   width: 110px;
   padding: 5px;
@@ -80,6 +64,13 @@ main section div section div .imgGaleria:hover {
   border-radius: 5%;
 }
 
+main section h1 {
+  font-size: 2.7rem;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
 main section div div div .parrafo1 {
   padding: 0.5rem;
   line-height: 1, 5;
@@ -106,6 +97,13 @@ main section div div div .imgCarousel1 {
   height: 450px;
 }
 
+main section h1 {
+  font-size: 2.7rem;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
 main section iframe {
   width: 80%;
   height: 500px;
@@ -117,6 +115,13 @@ main section .mapa {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+main section h1 {
+  font-size: 2.7rem;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 main section div section div .formulario {
@@ -136,9 +141,23 @@ main section div section div .colorBoton:hover {
   color: white;
 }
 
+main section h1 {
+  font-size: 2.7rem;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
 main section div div div .imgCarousel2 {
   width: 70%;
   height: 450px;
+}
+
+main section h1 {
+  font-size: 2.7rem;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 /*# sourceMappingURL=estilos.css.map */
