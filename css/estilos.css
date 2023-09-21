@@ -75,6 +75,7 @@ main section div section div .imgGaleria {
   padding: 20px;
   margin-bottom: 50px;
   margin-top: 7px;
+  transition: all 0.5s ease;
 }
 main section div section div .imgGaleria:hover {
   border-radius: 10%;
@@ -154,6 +155,9 @@ main section div section div .formulario {
 main section div section div .botonEnviar {
   margin-left: 200px;
   padding: 10px;
+}
+main section div section div .botonEnviar :hover {
+  transform: skew(-10deg);
 }
 @media (max-width: 780px) {
   main section div section div .botonEnviar {
