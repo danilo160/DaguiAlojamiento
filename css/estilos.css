@@ -153,6 +153,11 @@ main section div section div .botonEnviar {
   margin-left: 200px;
   padding: 10px;
 }
+@media (max-width: 780px) {
+  main section div section div .botonEnviar {
+    margin-left: 100px;
+  }
+}
 main section div section div .colorBoton {
   background-color: rgb(54, 182, 150);
 }
