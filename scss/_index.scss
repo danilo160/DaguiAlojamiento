@@ -65,3 +65,21 @@ main {
         }
     }
 }
+
+main {
+    section {
+        h2 {
+            @extend h3
+        }
+    }
+}
+
+main {
+    section {
+        ul {
+            text-align: center;
+            list-style: none;
+            font-weight: bold;
+        }
+    }
+}
