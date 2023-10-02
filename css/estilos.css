@@ -39,32 +39,32 @@ footer .footerIconos {
   justify-content: space-between;
   font-size: 1.3rem;
 }
-footer nav div .imgFooter1 {
+footer div div .imgFooter1 {
   margin-left: 40px;
   margin-top: 15px;
   width: 85px;
 }
 @media (max-width: 780px) {
-  footer nav div .imgFooter1 {
+  footer div div .imgFooter1 {
     width: 65px;
   }
 }
-footer nav div .imgFooter2 {
+footer div div .imgFooter2 {
   width: 100px;
   margin-top: 10px;
 }
 @media (max-width: 780px) {
-  footer nav div .imgFooter2 {
+  footer div div .imgFooter2 {
     width: 80px;
   }
 }
-footer nav div .imgFooter3 {
+footer div div .imgFooter3 {
   margin-right: 40px;
   margin-top: 25px;
   width: 70px;
 }
 @media (max-width: 780px) {
-  footer nav div .imgFooter3 {
+  footer div div .imgFooter3 {
     width: 55px;
   }
 }
