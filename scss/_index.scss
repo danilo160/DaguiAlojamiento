@@ -29,9 +29,11 @@ main {
                         height: 300px;
                         padding: 20px;
                         padding-bottom: 30px;
+                        transition: all .7s ease;
 
                         &:hover {
-                            padding: 5px;
+                            border-radius: 8%;
+                            transform: scale(1.1, 1.2);
                         }
                     }
                 }

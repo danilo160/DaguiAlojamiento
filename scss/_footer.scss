@@ -1,9 +1,9 @@
 footer {
-    background-color: rgb(147, 207, 247);
+    background-color: rgb(92, 176, 231);
 
     .footerIconos {
         width: 100%;
-        height: 120px;
+        height: 100px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -34,7 +34,7 @@ footer {
 
             .imgFooter3 {
                 margin-right: 40px;
-                margin-top: 15px;
+                margin-top: 20px;
                 width: 55px;
 
                 @media (max-width:780px) {
