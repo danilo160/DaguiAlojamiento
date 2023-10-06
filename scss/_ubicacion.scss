@@ -36,3 +36,15 @@ main {
         }
     }
 }
+
+main {
+    section {
+        .tabla {
+
+            @media (max-width:480px) {
+                width: 95%;
+
+            }
+        }
+    }
+}
