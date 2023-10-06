@@ -278,11 +278,6 @@ main section h1 {
   padding: 1rem;
   font-family: "Josefin Sans", sans-serif;
 }
-@media (max-width: 480px) {
-  main section h1 {
-    padding: 0;
-  }
-}
 
 main section .table {
   width: 50%;

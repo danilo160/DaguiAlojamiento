@@ -35,14 +35,10 @@ main {
             text-align: center;
             padding: 1rem;
             font-family: $fontTitulos1;
-
-            @media (max-width:480px) {
-                padding: 0;
-
-            }
         }
     }
 }
+
 
 main {
     section {
