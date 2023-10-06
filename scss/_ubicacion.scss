@@ -3,6 +3,12 @@ main {
         iframe {
             width: 80%;
             height: 500px;
+
+            @media (max-width:480px) {
+                width: 90%;
+                height: 80vh;
+
+            }
         }
 
         .mapa {
@@ -12,6 +18,12 @@ main {
             justify-content: center;
             align-items: center;
             flex-direction: column;
+
+            @media (max-width:480px) {
+                width: 90%;
+                height: 80vh;
+                margin: auto;
+            }
         }
     }
 }
@@ -23,6 +35,11 @@ main {
             text-align: center;
             padding: 1rem;
             font-family: $fontTitulos1;
+
+            @media (max-width:480px) {
+                padding: 0;
+
+            }
         }
     }
 }
